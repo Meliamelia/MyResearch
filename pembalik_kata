@@ -1,0 +1,25 @@
+<?php
+function Pembalik_kata(){
+    $x = 'we test coders';
+    $a = $x[0];
+	$b = $x[1];
+	$f = $x[3];
+	$g = $x[4];
+	$h = $x[5];
+	$i = $x[6];
+	$l = $x[8];
+	$m = $x[9];
+	$n = $x[10];
+	$o = $x[11];
+	$p = $x[12];
+	$q = $x[13];
+	
+	$we = $b.$a;
+	$test = $i.$h.$g.$f;
+	$coders = $q.$p.$o.$n.$m.$l;
+	$result = $we." ".$test." ".$coders;
+    echo $result;  
+}
+
+Pembalik_kata();
+?>
