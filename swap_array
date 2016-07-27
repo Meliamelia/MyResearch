@@ -1,0 +1,24 @@
+<?php
+function swap_a(){
+$A=array(1,3,3,5,7);
+$tempt = $A[1];
+$A[1] = $A[3];
+$A[3] = $tempt;
+
+$length=count($A);
+for($x=4;$x<$length;$x++){
+	for($x=4;$x<$length;$x++){
+		for($x=4;$x<$length;$x++){
+			echo $A[0];
+			echo "<br>";
+		}
+	   echo $A[2];
+	   echo "<br>";
+	}
+	echo $A[1];
+}
+}
+
+swap_a();
+
+?>
